@@ -1,1 +1,141 @@
+/* ===================================================================
+                            Fonts start
+======================================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ===================================================================
+                            Fonts end
+======================================================================*/
+
+
+/* ===================================================================
+                           Common css start
+======================================================================*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 870px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 33px;
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+/* ===================================================================
+                           Common css End
+======================================================================*/
+
+
+
+/* ===================================================================
+                            Navbar start
+======================================================================*/
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #562EFF;
+    color: #fff;
+    padding: 23px 0px;
+}
+
+.nav-inner {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40.42px;
+    height: 51px;
+    margin-right: 15px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 36px;
+
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu ul li a img {
+    width: 51px;
+    height: 51px;
+}
+
+/* ===================================================================
+                            Navbar End
+======================================================================*/
+
+
+/* ===================================================================
+                            Main section Start
+======================================================================*/
+/* ---------Top player start--------- */
+.top-players {}
+
+.top-players .player {
+    display: flex;
+    align-items: center;
+}
+
+.players {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.players .player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+/* ---------Top player End--------- */
+/* ===================================================================
+                            Main section End
+======================================================================*/
