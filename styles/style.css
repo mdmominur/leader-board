@@ -252,3 +252,94 @@ hr {
 /* ===================================================================
                             Main section End
 ======================================================================*/
+
+
+
+/* ===================================================================
+                            Responsive Start
+======================================================================*/
+/* ---------------Mobile device start---------------- */
+@media only screen and (max-width:668px) {
+
+    .container {
+        width: 100%;
+        padding: 33px 0;
+    }
+
+    .section-title {
+        padding-left: 33px;
+    }
+
+    .nav-inner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+
+        grid-template-columns: 1fr;
+        padding: 33px;
+    }
+
+    .player {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .blogs .blog .blog-thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+}
+
+
+/* --------------Tab device start-------------- */
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+        padding: 33px 0;
+    }
+
+    .section-title {
+        padding-left: 33px;
+    }
+
+    .nav-inner {
+        width: 100%;
+        padding: 0 33px;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 33px;
+        padding: 33px;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blogs .blog .blog-thumbnail img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* ---------------Mobile device End---------------- */
+/* ===================================================================
+                            Responsive End
+======================================================================*/
